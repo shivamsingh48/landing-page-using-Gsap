@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height:100%;
+    width: 100%;
+}
+#nav{
+    height:13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+#nav img{
+    
+    height: 50px;
+}
+#section2{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 30px;
+    font-size: 13px;
+}
+#section3{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 30px;
+    font-size: 14px;
+}
+#section3 button{
+    /* margin-top: 19px; */
+    padding:16px 16px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#text{
+    margin-top: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 53px;
+}
+#text h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#text h1 span{
+    font-size: 26px;
+    padding: 24px 50px;
+    background-color: rgb(111, 50, 50);
+    border-radius: 50px;
+}
+#image :first-child{
+    height: 160px;
+    width: 130px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 300px;
+    left: 60px;
+    border-radius: 7px;
+}
+#image :nth-child(2){
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    border-radius: 7px;
+}
+
+#image :nth-child(3){
+    height: 140px;
+    width: 120px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 330px;
+    left: 900px;
+    border-radius: 7px;
+    /* z-index: -1; */
+}
+#image :nth-child(4){
+    height: 180px;
+    width: 150px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 40px;
+    left: 1000px;
+    border-radius: 7px;
+}
+#main>p{
+    position: absolute;
+    left:600px;
+    bottom:8%;
+}
